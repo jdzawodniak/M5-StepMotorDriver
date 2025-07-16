@@ -53,4 +53,6 @@ upload_speed = 115200
 
 > This minimal codebase is designed for learning and quick integration with M5Stack hardware.  
 > For further customization or more advanced movement, expand the button controls or adjust step/motor parameters as desired.
+> Realistic Expecations - You should expect some jitter and step loss from your motors as you are in full step mode.  Spinning the motor up and down 
+> will create skips in steps. Investigate microstepping if more precision is required.
 
